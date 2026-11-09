@@ -5,17 +5,20 @@ import Tabs from './tabs.vue';
 import ToDo from './ToDo.vue';
 import Modals from './Modals.vue';
 import Important from './pages/Important.vue';
+import Buttons from './Buttons.vue';
 
 let tabTitles = ref([
   'ToDo',
   'Modals',
   'Important',
+  'Buttons',
 ]);
 let activeTab = ref(0);
 let contents = [
   ToDo,
   Modals,
   Important,
+  Buttons,
 ];
 </script>
 
